@@ -8,15 +8,15 @@ export default function App() {
     <div className="flex flex-col h-screen overflow-hidden bg-white">
       {/* Header */}
       <header className="flex items-center justify-between px-4 md:px-10 py-4 bg-white border-b border-gray-300 shrink-0">
-        <div className="flex items-center">
-          <img src={lululemonLogoUrl} alt="lululemon" className="h-4 w-4" />
+        <div className="flex items-center gap-8">
+          <img src={lululemonLogoUrl} alt="lululemon" style={{ width: '36px', height: '36px' }} />
+          <nav className="hidden md:flex items-center gap-8">
+            <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70" style={{ fontWeight: 600 }}>Women</a>
+            <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70" style={{ fontWeight: 600 }}>Men</a>
+            <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70" style={{ fontWeight: 600 }}>Accessories</a>
+            <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70" style={{ fontWeight: 600 }}>Community</a>
+          </nav>
         </div>
-        <nav className="hidden md:flex items-center gap-8">
-          <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70 font-medium">Women</a>
-          <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70 font-medium">Men</a>
-          <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70 font-medium">Accessories</a>
-          <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70 font-medium">Community</a>
-        </nav>
         <div className="w-8 hidden md:block"></div>
       </header>
 
