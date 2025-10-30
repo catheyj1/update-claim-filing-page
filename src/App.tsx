@@ -9,7 +9,7 @@ export default function App() {
       {/* Header */}
       <header className="flex items-center justify-between px-4 md:px-10 py-4 bg-white border-b border-gray-300 shrink-0">
         <div className="flex items-center">
-          <img src={lululemonLogoUrl} alt="lululemon" className="h-5 w-5" />
+          <img src={lululemonLogoUrl} alt="lululemon" className="h-4 w-4" />
         </div>
         <nav className="hidden md:flex items-center gap-8">
           <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70 font-medium">Women</a>
@@ -24,7 +24,7 @@ export default function App() {
       <div className="flex flex-col md:flex-row flex-1 overflow-hidden">
         {/* Left panel - Form */}
         <div className="w-full md:w-[540px] lg:w-[600px] bg-[#f5f5f5] flex flex-col shrink-0">
-          <div className="flex-1 overflow-y-auto px-6 md:px-10 lg:px-14 py-8 md:py-10">
+          <div className="flex-1 overflow-hidden px-6 md:px-10 lg:px-14 py-8 md:py-10">
             {/* Title */}
             <h1 className="mb-3 md:mb-4 text-black text-[22px] md:text-[24px] leading-[1.3]" style={{ fontWeight: 700 }}>Received items that you didn't order?</h1>
             
@@ -106,7 +106,7 @@ export default function App() {
           {/* Footer */}
           <div className="px-6 md:px-10 lg:px-14 py-5 md:py-6 border-t border-gray-300 shrink-0">
             <div className="flex items-center gap-2">
-              <img src={narvarPoweredUrl} alt="Powered by Narvar" className="h-3 w-auto opacity-70" />
+              <img src={narvarPoweredUrl} alt="Powered by Narvar" className="h-2.5 w-auto opacity-70" />
             </div>
           </div>
         </div>
