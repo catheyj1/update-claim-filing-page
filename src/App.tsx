@@ -26,11 +26,11 @@ export default function App() {
         <div className="w-full md:w-[540px] lg:w-[600px] bg-[#f5f5f5] flex flex-col shrink-0">
           <div className="flex-1 overflow-y-auto px-6 md:px-10 lg:px-14 py-8 md:py-10">
             {/* Title */}
-            <h1 className="mb-3 md:mb-4 text-black text-[22px] md:text-[24px] leading-[1.3]" style={{ fontWeight: 700 }}>Missing packages or items?</h1>
+            <h1 className="mb-3 md:mb-4 text-black text-[22px] md:text-[24px] leading-[1.3]" style={{ fontWeight: 700 }}>Received items that you didn't order?</h1>
             
             {/* Description */}
             <p className="text-black mb-6 md:mb-8 leading-[1.6] text-[13px] md:text-[14px]" style={{ fontWeight: 400 }}>
-              We're here to help. If packages or items from your order are missing, please fill out this form.
+            We're here to help. If you received items that you didn't order, please fill out this form.
             </p>
 
             {/* How claims work */}
