@@ -7,17 +7,17 @@ export default function App() {
   return (
     <div className="flex flex-col h-screen overflow-hidden bg-white">
       {/* Header */}
-      <header className="flex items-center justify-between px-4 md:px-10 py-4 bg-white border-b border-gray-300 shrink-0">
-        <div className="flex items-center gap-8">
+      <header className="flex items-center justify-between px-4 md:px-16 lg:px-20 py-4 bg-white border-b border-gray-300 shrink-0">
+        <div className="flex items-center gap-10">
           <img src={lululemonLogoUrl} alt="lululemon" style={{ width: '36px', height: '36px' }} />
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-10">
             <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70" style={{ fontWeight: 600 }}>Women</a>
             <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70" style={{ fontWeight: 600 }}>Men</a>
             <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70" style={{ fontWeight: 600 }}>Accessories</a>
             <a href="#" className="text-black text-[13px] uppercase tracking-wider hover:opacity-70" style={{ fontWeight: 600 }}>Community</a>
           </nav>
         </div>
-        <div className="w-8 hidden md:block"></div>
+        <div className="hidden md:block"></div>
       </header>
 
       {/* Main content */}
