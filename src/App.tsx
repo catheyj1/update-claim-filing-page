@@ -98,7 +98,7 @@ export default function App() {
               </div>
 
               <button className="w-full bg-black text-white py-3 md:py-4 uppercase tracking-[0.1em] hover:bg-gray-900 transition-colors mt-3 md:mt-4 text-[12px] md:text-[13px] text-center" style={{ fontWeight: 700 }}>
-                Start a Claim
+                START A CLAIM
               </button>
             </div>
           </div>
