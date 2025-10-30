@@ -2,7 +2,7 @@ export default function App() {
   // Expect these files to be placed under public/assets by the user
   const lululemonLogoUrl = "/assets/lululemon-logo.png";
   const heroImageUrl = "https://cdn.domain-freighter.prod20.narvar.com/lululemon/926cf133-0e63-4e7b-8f3e-f5baa1a8f44c";
-  const narvarPoweredUrl = "/assets/powered-by-narvar.png";
+  const narvarPoweredUrl = "/assets/narvar_logo.png";
 
   return (
     <div className="flex flex-col h-screen overflow-hidden bg-white">
