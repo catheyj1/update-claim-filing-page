@@ -106,7 +106,9 @@ export default function App() {
           {/* Footer */}
           <div className="px-6 md:px-10 lg:px-14 py-5 md:py-6 border-t border-gray-300 shrink-0">
             <div className="flex items-center gap-2">
-              <img src={narvarPoweredUrl} alt="Powered by Narvar" className="h-2.5 w-auto opacity-70" />
+              <img src={narvarPoweredUrl} alt="Narvar Logo" className="h-3.5 w-auto" />
+              <span className="text-gray-700 text-[12px] md:text-[13px]" style={{ fontWeight: 400 }}>Powered by</span>
+              <span className="text-gray-700 text-[12px] md:text-[13px]" style={{ fontWeight: 600 }}>Narvar</span>
             </div>
           </div>
         </div>
